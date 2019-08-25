@@ -1,0 +1,169 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	
+}
+.fuente{
+	font-family: 'Architects Daughter', cursive;
+}
+main{
+	display: flex;
+	flex-direction: column;	
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+footer{
+	background-color: black;
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+	font-size: large;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+header div a{
+	padding-right: 20px;
+	color: #4F9D76;
+}
+/*#mainbanner{
+	width: 100%;
+}*/
+/*rellenar un div con una imagen*/
+.mainbanner{
+	overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/banners/banner4.jpg');
+    height: 400px;
+}
+#logo{
+	width: 120px;
+}
+.fillimg{
+	height: 100%;
+	width: 100%;
+}
+#minbann{
+	display: flex;
+	justify-content:space-around;
+	height:430px;
+	margin-top: 2%;
+}
+.div1{
+	background-color: red;
+	width: 45%;
+	height: 100%;
+	border:10px solid #e0e0d1;
+}
+.div2{
+	background-color: orange;
+	width: 45%;
+}
+.div2_1{
+	background-color: blue;
+	width: 100%;
+	height: 50%;
+	border:5px solid #e0e0d1;
+
+}
+.div2_2{
+	background-color: green;
+	width: 100%;
+	height: 50%;
+	border:5px solid #e0e0d1;
+
+}
+.mvcontainer{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.divnegro{
+	width: 100%;
+	height: 150px;
+	background-color: #292929;
+	margin-top:4%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.sabermas{
+	background-color: #E0E0D1;
+	color: #606c6c;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 2em;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.3vw;
+	font-weight: bolder;
+	border-radius: 25px;
+}
+.text{
+	text-align: justify;
+  	text-justify: inter-word;
+  	margin: 2em;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.4vw;
+}
+.division{
+	height: 3px;
+	background-color: #E0E0D1;
+	width: 40%;
+	border-radius: 25px;
+
+}
+.categoria{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+}
+.textcat{
+	color: #555555;
+	font-size: 3vw;
+}
+
+
+
+
+/*
+.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+	background-image: linear-gradient(to right, blue, yellow);
+	
+}
+#contenedor {
+  background: #CCC;
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;  /* Comportamiento por defecto: nowrap */
+/*}
+
+.item {
+  background: #777;
+  width: 50%;
+  }
+*/
