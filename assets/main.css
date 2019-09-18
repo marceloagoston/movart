@@ -156,7 +156,7 @@ header div a:hover{
 }
 .carr{
 	height: 70vh;
-	width: 100vw;
+	width: 100%;
 }
 .conticon{
 	display: flex;
@@ -181,29 +181,11 @@ p{
 .minimg{
 	height: 50vh;
 }
-
-
-
-
-/*
-.container{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 100%;
-	flex-wrap: wrap;
-	background-image: linear-gradient(to right, blue, yellow);
-	
+@media screen and (max-width:936px) {
+ .w-100{
+ 	min-height: 400px;
+ }
 }
-#contenedor {
-  background: #CCC;
-  display: flex;
-  width: 200px;
-  flex-wrap: wrap;  /* Comportamiento por defecto: nowrap */
-/*}
 
-.item {
-  background: #777;
-  width: 50%;
-  }
-*/
+
+
