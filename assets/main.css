@@ -15,12 +15,17 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 1px;
 	padding-left: 3%;
 	padding-right: 3%;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.5vw;
 	text-transform: uppercase;
 	font-weight: bolder;
+	box-shadow: 1px 1px 5px grey;
+}
+header a{
+	width: 25%;
 }
 footer{
 	background-color: black;
@@ -38,21 +43,29 @@ footer{
 }
 header div a{
 	padding-right: 20px;
-	color: #4F9D76;
+	color: #9F1C20;
+}
+header div a:hover{
+	padding-right: 20px;
+	color: #F7DA41;
+	text-decoration: none;
+  	transition: all 0.4s ease-out;
 }
 /*#mainbanner{
 	width: 100%;
 }*/
 /*rellenar un div con una imagen*/
 .mainbanner{
-	overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('img/banners/banner4.jpg');
-    height: 400px;
+	overflow: visible;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url('img/landback2.png');
+    height: 70vh;
 }
 #logo{
-	width: 120px;
+	width: 70%;
+	margin: 4%;
 }
 .fillimg{
 	height: 100%;
@@ -88,10 +101,10 @@ header div a{
 	border:5px solid #e0e0d1;
 
 }
-.mvcontainer{
+/*.mvcontainer{
 	margin-left: 2%;
 	margin-right: 2%;
-}
+}*/
 .divnegro{
 	width: 100%;
 	height: 150px;
@@ -135,11 +148,38 @@ header div a{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 40px;
+	margin-top: 10vh;
 }
 .textcat{
 	color: #555555;
 	font-size: 3vw;
+}
+.carr{
+	height: 70vh;
+	width: 100vw;
+}
+.conticon{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10vh;
+}
+.ordicon{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.picon{
+	font-size: 8vw; 
+	color: #9F1C20;
+	display: flex;
+	justify-content: center;
+}
+p{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.7vw;
+}
+.minimg{
+	height: 50vh;
 }
 
 
